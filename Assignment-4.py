@@ -21,7 +21,7 @@ num = []
 value = input("Input some character values with commas")
 list = value.split(",") #split(",")seprate each word after "," and put in " "
 for n in list:
-    num.append(ord(n)) #here "ord()" this function is used to convert every charcter to int
+    num.append(int(n)) #here "ord()" this function is used to convert every charcter to int
 
 print("After typecasting to int ",num)
 
