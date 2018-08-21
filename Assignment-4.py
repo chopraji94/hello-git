@@ -18,7 +18,7 @@ if(f == 0):
 """Q.3- Split the user input on comma's and store the values in a list as integers."""
 
 num = []
-value = input("Input some character values with commas")
+value = input("Input some values with commas")
 list = value.split(",") #split(",")seprate each word after "," and put in " "
 for n in list:
     num.append(int(n)) #here "ord()" this function is used to convert every charcter to int
