@@ -1,23 +1,23 @@
 """Q.1- Write a Python program to read n lines of a file"""
 
-f = open('test.txt','r')
-data = f.read()
-print(data)
-f.close()
+with open('test.txt','r') as f:
+    n=int(input("Enter The number of lines you want to enter"))
+    for i in range(n):
+        x=f.readline()
+        print(x)
 
 """Q.2- Write a Python program to count the frequency of words in a file."""
 
-count = 0
-
-with open("alphacount.txt", 'r') as f:
-    for line in f:
-        words = line.split()
-        for i in words:
-            for letter in i:
-                if(letter.isalpha()):
-                   count = count+1
-
-print("The number of alpahabets in given file is",count)
+f=open('alphacount.txt','r')
+d=f.read()
+words = d.split()
+print(words)
+l=[]
+for i in words:
+    if i not in l:
+        l.append(i)
+        p=words.count(i)
+        print ('count of '+i+' = '+ str(p))
 
 """Q.3- Write a Python program to copy the contents of a file to another file"""
 
