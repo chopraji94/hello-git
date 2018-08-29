@@ -2,14 +2,10 @@ dsas das dsd fsdf
 read is a default mode
 sdf sdf df dfg
 In case file not present in system and trying to open in read mode then error raised is file not found error
-
-the pointer will be assigned at starting
 dfgdf dfg g gh
-
-
-In write when no file is present then new file is created
+the pointer will be assigned at starting
 dg
-File is again created in append mode
-gh
 
-fghfghfgh fgh fghIn append mode no file is overwrite
+gh
+In write when no file is present then new file is created
+fghfghfgh fgh fghFile is again created in append mode
