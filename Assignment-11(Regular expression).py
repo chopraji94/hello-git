@@ -1,5 +1,6 @@
 """Q.1- Write a python code to find a valid email address from a text."""
 
+import re
 s = input('Enter a mobile number to validate: ')
 
 m = re.fullmatch('^[a-zA-Z0-9_.+-]+[@](gmail.com|yahoo.com)', s)
