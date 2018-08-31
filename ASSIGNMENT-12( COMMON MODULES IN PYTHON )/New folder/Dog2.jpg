@@ -1,0 +1,29 @@
+immutable - : once we create an object we are not allowed to change its content
+In case __________  for that change a new object will be created 
+
+why immutability?
+*Reuseability
+*Efficiency increases
+
+shallow copy,deep copy
+
+l = [1,2]
+l1 = []
+l1 = l
+l1[0] = 44
+print(l)
+
+The original object contains any reference to mutable object then duplicate 
+
+Tupple-:
+It is imutable
+denoted by()
+we can include different type in tupple
+
+we can declare tupple as t = 'Acadview',
+
+Sets-:
+
+s = set([1,2,3,4])
+set is unordered collection of item
+In this indexing and slicing is not possible

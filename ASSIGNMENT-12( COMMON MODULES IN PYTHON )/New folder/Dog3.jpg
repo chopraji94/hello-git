@@ -1,0 +1,42 @@
+Regular expressions (Regex)
+
+->If we want to represent a string in particular expression than we should go forreg ex.
+->this contains meta chcarcters like-:
+. , ^ , $ , * , + , ? , {} , [], \ , | , ()
+
+character classes -: they are in [ ]  eg. [abc] -> a or b or c  eg. [^abc] = except a & b & c
+[a - z] -> searching for any lower case alphabets
+[A - Z] -> searching for any upper case alphabets
+[a-zA-Z] -> searching for both lower and upper case alphabets
+
+Predifined character classes-:
+
+\s -> space
+\S -> except case
+\d -> digit
+\D -> except digits
+\w -> alpha numeric
+\W -> except alpha numeric
+. -> All characters except next line characters
+
+Quantifiers -: No of occurences
+
+a+ = a,aa,aaa,aa--
+a* = {NULL,a,aa,aaa,------}
+a? = 
+a{n} = exactly n numbers of aa's
+a{m,n} = atlest n numbers of a
+
+^a = starting with a
+a$ = ending with a
+
+In match the match is done only at start
+In search the search is done on the first occurence  
+
+sub in in regex re.sub('\d','#','a1b2c3')
+ans = a#b#c#
+
+r= re.sub('#.*','','123-456-789 # my 1st phone')
+p=re.sub('\D','',r)
+print(r)
+print(p)

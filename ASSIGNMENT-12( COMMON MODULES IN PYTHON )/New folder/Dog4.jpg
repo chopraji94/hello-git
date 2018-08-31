@@ -1,0 +1,13 @@
+list(map(int,input().split(',')))
+CLASS -: bLUE PRINT OF AN OBJECT WITH PROPERTIES AND METHOD
+OBJECT/INSTANCES -: A REAL WORLD ENTITY CREATED FROM A BLUE PRINT
+
+CLASS DEFINITION -:
+
+CLASS CLASS NAME:
+  "doc_string"
+ 1) Constructor  
+ 2) Variables (Instance,static,local)
+ 3) Methods
+
+constructor -: to initialize instance variable
